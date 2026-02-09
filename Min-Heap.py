@@ -56,11 +56,3 @@ class MinHeap:
             sorted_list.insert(0, self.pop())
         
         return sorted_list
-
-min_heap = MinHeap()
-
-list = [99, 12, 35, 4, 9]
-
-new = min_heap.heapsort(list)
-
-print(new)

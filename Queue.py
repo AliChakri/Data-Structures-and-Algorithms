@@ -59,8 +59,3 @@ class Queue:
         
         return self.rear.data
 
-queue = Queue()
-
-queue.add(1)
-queue.add(2)
-queue.add(3)

@@ -168,5 +168,3 @@ class DoublyLinkedList:
             last = last.prev
         print("null")
         
-# TEST Code
-head = DoublyLinkedList()

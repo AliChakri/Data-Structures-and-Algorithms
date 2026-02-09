@@ -60,11 +60,3 @@ class MaxHeap:
         
         return sorted_array
         
-
-list = [99, 12, 35, 4, 9]
-
-heap = MaxHeap()
-
-wiw = heap.heapsort(list)
-
-print(wiw)
